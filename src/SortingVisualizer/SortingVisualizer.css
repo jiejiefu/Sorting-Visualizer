@@ -1,0 +1,46 @@
+.array-container {
+    /* position: relative; */
+    /* bottom:0px; */
+}
+  
+.array-bar {
+    width: 20px;
+    display: inline-block; /* arranges the array bars in horizontal way*/
+    margin: 0 2px; /*Top,Bottom -> 0px Left,Right -> 1px*/
+}
+
+.array-bar:hover {
+    width: 21px;
+    background-color: red !important;
+}
+
+
+.buttons button {
+    background-color: #47535E; 
+    border: none;
+    color: #EAF0F1;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    outline: 0;
+    /* display: block; Make the buttons appear below each other for vertical display */
+    font: 20px "Century Gothic", Futura, sans-serif;
+}
+.buttons button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+  
+  /* Add a background color on hover */
+.buttons button:hover {
+    background-color: #59db5d !important;
+}
+
+
+.algorithm-container {
+    position: relative;
+    top: 600px;
+    font: 20px "Roboto", Futura, sans-serif;
+
+}
+
+
