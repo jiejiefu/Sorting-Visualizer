@@ -1,0 +1,31 @@
+name: MasterDeployCI
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [10.x]
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Install Packages
+      run: npm install
+
+    - name: Deploy to GH Pages
+      run: |
+        git config --global user.email ${{GIT_EMAIL}}
+        git config --global user.name ${{GIT_USERNAME}}
+        git remote set-url origin https://${{GIT_PERSONAL_ACCESS_TOKEN}}@github.com/${{GIT_USERNAME}}/Sorting-Visualizer.git
+        npm run deploy
+
+# Setting Up Github Actions for a React App on Github Pages
+# https://www.youtube.com/watch?v=N63C0mkFDFw&ab_channel=Keith%2CtheCoder
+# https://keithweaver.ca/lessons/deploy-react-gh-pages-using-github-actions?s=ytktc
