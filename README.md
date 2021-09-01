@@ -1,12 +1,13 @@
 # Sorting Visualizer
 A visualization for various sorting algorithms like merge sort, quick sort, bubble sort, insertion sort, heap sort and selection sort.<br>
 Access it using this link https://jiejiefu.github.io/Sorting-Visualizer/.
-<img alt="margeSort" src="/src/components/molecules/marge24s.gif" width="300">
-<img alt="quickSort" src="/src/components/molecules/quick25s.gif" width="300">
-<img alt="bubbleSort" src="/src/components/molecules/bubble27s.gif" width="300">
-<img alt="insertSort" src="/src/components/molecules/insert26s.gif" width="300">
-<img alt="heapSort" src="/src/components/molecules/heap24s.gif" width="300">
-<img alt="selectSort" src="/src/components/molecules/select26s.gif" width="300">
+<img alt="margeSort" src="/src/components/molecules/marge24s.gif" width="400">
+<img alt="quickSort" src="/src/components/molecules/quick25s.gif" width="400">
+<img alt="bubbleSort" src="/src/components/molecules/bubble27s.gif" width="400">
+<img alt="insertSort" src="/src/components/molecules/insert26s.gif" width="400">
+<img alt="heapSort" src="/src/components/molecules/heap24s.gif" width="400">
+<img alt="selectSort" src="/src/components/molecules/select26s.gif" width="400">
+*Each GIF resolution is 1920 x 1080, it may cause web rendering slow*
 
 ## To Be Implemented
 - Add a dropdown menu to all sort and submit button to sort.
@@ -51,11 +52,5 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Note: this is a one-way operation. Once you eject, you can’t go back!
+[link to documentation](https://github.com/facebook/create-react-app/blob/main/packages/cra-template/template/README.md#getting-started-with-create-react-app)
