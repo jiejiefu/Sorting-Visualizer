@@ -1,12 +1,12 @@
 # Sorting Visualizer
 A visualization for various sorting algorithms like merge sort, quick sort, bubble sort, insertion sort, heap sort and selection sort.<br>
 Access it using this link https://jiejiefu.github.io/Sorting-Visualizer/.
-![margeSort](../blob/main/src/components/molecules/marge24s.gif | width=300)
-![quickSort](../blob/main/src/components/molecules/quick25s.gif | width=300)
-![bubbleSort](../blob/main/src/components/molecules/bubble27s.gif | width=300)
-![insertSort](../blob/main/src/components/molecules/insert26s.gif | width=300)
-![heapSort](../blob/main/src/components/molecules/heap24s.gif | width=300)
-![selectSort](../blob/main/src/components/molecules/select26s.gif | width=300)
+![margeSort](molecules/marge24s.gif | width=300)
+![quickSort](molecules/quick25s.gif | width=300)
+![bubbleSort](molecules/bubble27s.gif | width=300)
+![insertSort](molecules/insert26s.gif | width=300)
+![heapSort](molecules/heap24s.gif | width=300)
+![selectSort](molecules/select26s.gif | width=300)
 
 
 ## To Be Implemented
