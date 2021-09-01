@@ -1,15 +1,22 @@
 # Sorting Visualizer
 A visualization for various sorting algorithms like merge sort, quick sort, bubble sort, insertion sort, heap sort and selection sort.<br>
 Access it using this link https://jiejiefu.github.io/Sorting-Visualizer/.
-![](/src/components/molecule/smarge24s.gif)
+![margeSort](/src/components/molecule/marge24s.gif | width=300)
+![quickSort](/src/components/molecule/quick25s.gif | width=300)
+![bubbleSort](/src/components/molecule/bubble27s.gif | width=300)
+![insertSort](/src/components/molecule/insert26s.gif | width=300)
+![heapSort](/src/components/molecule/heap24s.gif | width=300)
+![selectSort](/src/components/molecule/select26s.gif | width=300)
 
 
 ## To Be Implemented
 - Add a dropdown menu to all sort and submit button to sort.
 - Update NUMBER_OF_ARRAY_BARS every time window size is changed
+- Input slider should be integrated with array bar size
 - Implement quick sort 3, shell sort
 - Update with sorted array after visualization
 - Stop the algorithm when reset button is pressed
+- Github Actions build ERR!
 
 ## NOTES
 - Huge thanks to [Clément Mihailescu](https://github.com/clementmihailescu) for this project idea.
