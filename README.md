@@ -1,12 +1,12 @@
 # Sorting Visualizer
 A visualization for various sorting algorithms like merge sort, quick sort, bubble sort, insertion sort, heap sort and selection sort.<br>
 Access it using this link https://jiejiefu.github.io/Sorting-Visualizer/.
-<img alt="margeSort" src="/src/components/molecules/marge24s.gif" width="400">
-<img alt="quickSort" src="/src/components/molecules/quick25s.gif" width="400">
-<img alt="bubbleSort" src="/src/components/molecules/bubble27s.gif" width="400">
-<img alt="insertSort" src="/src/components/molecules/insert26s.gif" width="400">
-<img alt="heapSort" src="/src/components/molecules/heap24s.gif" width="400">
-<img alt="selectSort" src="/src/components/molecules/select26s.gif" width="400">
+<img alt="margeSort" src="/src/components/molecules/marge24s.gif" width="350">
+<img alt="quickSort" src="/src/components/molecules/quick25s.gif" width="350">
+<img alt="bubbleSort" src="/src/components/molecules/bubble27s.gif" width="350">
+<img alt="insertSort" src="/src/components/molecules/insert26s.gif" width="350">
+<img alt="heapSort" src="/src/components/molecules/heap24s.gif" width="350">
+<img alt="selectSort" src="/src/components/molecules/select26s.gif" width="350">
 *Each GIF resolution is 1920 x 1080, it may cause web rendering slow*
 
 ## To Be Implemented
